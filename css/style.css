@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 1800px;
+}
+
+
+header{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+img{
+    height: 500px;
+    width: 40%;
+    padding-left: 30%;
+}
+
+
+nav{
+    height: 120px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    border-bottom: outset white;
+    position: sticky;
+    top: 0;
+}
+
+li{
+    display: inline-block;
+    width: 19%;
+    text-align: center;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul{
+    align-items: center;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.padre{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 0, 0);
+    height: 35%;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.Ropa{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(99, 99, 99);
+    height: 95%;
+    width: 30%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imagenropa{
+    width: 90%;
+    height: 65%;
+    padding-right: 30%;
+    padding-top: 10%;
+}
+
+h2{
+    color: rgb(255, 255, 255);  
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    align-items: flex-start;
+}
+
+p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 20px;
+    text-align: center  ;
+}
+
+button{
+    width: 50%;
+    height: 40px;
+    background-color: rgb(99, 99, 99);
+    color:white;
+    font-size:14px;
+    border-bottom: outset rgb(99, 99, 99);
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    position: absolute;
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-top: solid white;
+}
+
+.contenedor{
+    width: 90%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col{
+    text-align: center;
+}
+
+.cat{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto{
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.derechodeautor{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+#grilla{
+    display: grid;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    column-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    grid-template-rows: 700px 700px 700px;
+    grid-template-columns: 20% 40% 40%;
+    grid-template-areas:"a1 a2 a3"
+                        "a1 a5 a6"
+                        "a1 a8 a9"
+}
+
+#hijouno{
+    background-color: rgb(99, 99, 99);
+    grid-area: a1;
+    width: 90%;
+    height: 90%;
+}
+
+#hijodos{
+    background-color: rgb(99, 99, 99);
+    grid-area: a2;
+    width: 90%;
+    height: 90%;
+}
+
+#hijotres{
+    background-color: rgb(99, 99, 99);
+    grid-area: a3;
+    width: 90%;
+    height: 90%;
+}
+
+#hijocuatro{
+    background-color: rgb(99, 99, 99);
+    grid-area: a5;
+    width: 90%;
+    height: 90%;
+}
+
+#hijocinco{
+    background-color: rgb(99, 99, 99);
+    grid-area: a6 ;
+    width: 90%;
+    height: 90%;
+}
+
+#hijoseis{
+    background-color: rgb(99, 99, 99);
+    grid-area: a8;
+    width: 90%;
+    height: 90%;
+}
+
+#hijosiete{
+    background-color: rgb(99, 99, 99);
+    width: 90%;
+    height: 90%;
+}
+
+.videoremera{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ropacatagolo{
+    width: 50%;
+    height: 80%;
+    padding-top: 3%;
+}
+
+.cn{
+    color: rgb(255, 255, 255);  
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-left: 40%;
+    margin-left: 23px;
+}
+
+.btn{
+    margin-left: 210px;
+    text-align: center;
+}
+
+.p{
+    margin-left: 60px;
+}
+
+#hijounob{
+    background-color: rgb(0, 0, 0);
+    grid-area: a1 a2 a3;
+    width: 100%;
+    height: 300px;
+}
+
+.hotsale{
+    color: rgb(202, 28, 28);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    justify-content: center;
+    font-size: 100px;
+    padding-top: 4%;
+}
+
+#hijodosb{
+    background-color: rgb(0, 0, 0);
+    grid-area: a4 a5 a6 ;
+    width: 100%;
+    height: 1100px;
+}
+
+
+.buzosoferta{
+    background-color: black;
+    z-index: -1;
+    padding: 150px;
+    margin-left: 23%;
+    margin-top: 1%;
+    object-fit: cover;
+}
+
+.antesoferta{
+    color: white;
+    text-decoration: line-through;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.despuesoferta{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.buzooferta2{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    padding-left: 45%;
+}
+
+.imagenoferta{
+    text-align: center;
+}
+
+#grilla{
+    display: grid;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    column-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    grid-template-rows: 700px 700px 700px;
+    grid-template-columns: 20% 40% 40%;
+    grid-template-areas:"a1 a1 a1"
+                        "a4 a5 a6"
+                        "a5 a8 a9"
+}
